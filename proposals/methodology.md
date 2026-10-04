@@ -80,8 +80,8 @@ A YAML file assigns every country to a tier, with a one-line reason.
 
 | Tier | Value | Illustrative members (draft, to be edited) |
 |---|---|---|
-| **S** | 100 | United States, Schengen Area (as one bloc) |
-| **A** | 50 | UK, China, Russia, UAE, Singapore, Japan, Canada, Australia, Hong Kong |
+| **S** | 100 | United States, Schengen Area (as one bloc), United Kingdom |
+| **A** | 50 | China, Russia, UAE, Singapore, Japan, Canada, Australia, Hong Kong |
 | **B** | 20 | South Korea, India, Saudi Arabia, Türkiye, Brazil, Mexico, Thailand, … |
 | **C** | 8 | Most mid-sized economies and major tourist countries |
 | **D** | 3 | Smaller countries |
