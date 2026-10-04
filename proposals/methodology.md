@@ -8,28 +8,22 @@ A country is worth visiting for **its cities**: where business happens, where mo
 
 ## 2. What it should get right
 
-- **The United States is a big deal.** It has several world cities, not one.
-- **Russia, China, the UAE and Singapore are in the same league.** China's GDP shouldn't make it worth ten Singapores.
+- **The US, the Schengen Area and the UK are the top destinations.**
+- **Russia and the UAE are about equal.** Dubai is in high demand, even among Russians, which makes up for the UAE's small size.
+- **Japan is worth more than Russia,** and **China and Japan are not equal.**
+- **China's GDP doesn't make it worth ten Singapores.**
 - **Small destinations still count, just a little.**
-- **Every number can be traced back to a published source or a stated opinion.**
+- **Every number can be traced back to a published source or a stated override.**
 
-## 3. Two layers
+## 3. Approach
 
 ```
-Value(j) = λ · DataValue(j)  +  (1 − λ) · OpinionValue(j)
+Value(j) = DataValue(j)   (unless an override applies)
 ```
 
-| Layer | What it is | Why |
-|---|---|---|
-| **Data** | Computed from global-city benchmarks | Reproducible and cites its sources |
-| **Opinion** | A hand-curated tier list with a one-line reason per country | Captures judgements that no benchmark encodes |
-
-`λ` slides between the two:
-- `1` = pure data
-- `0` = pure opinion
-- `0.5` = proposed default
-
-The report always shows all three rankings side by side: data, opinion and blended.
+- **No hand-assigned tiers.** Tiers proved too coarse: every bucket mixed countries that aren't really equal.
+- **Value comes from global-city benchmarks** (§4).
+- **A short override list** fixes only the cases the data clearly gets wrong (§5).
 
 ## 4. Data layer
 
@@ -63,47 +57,46 @@ DataValue(j) = c₁ + d·c₂ + d²·c₃ + d³·c₄ + …   (+ a small floor s
   - `d = 0`: only the best city counts. Singapore ≈ the US.
   - `d = 0.5` (proposed default): extra world cities add real value. New York + LA + SF + Chicago + Miami lift the US clear of the field.
   - `d = 1`: plain sum, so countries with many cities dominate.
+- **Schengen is scored as one destination.** One visa covers the whole area, so its cities (Paris, Frankfurt, Amsterdam, Milan, …) are pooled into one bloc, not 29 separate countries.
 - **Hong Kong, Macau and Taiwan are their own destinations,** because the visa matrix treats them separately. Their cities do not count towards China.
 
 ### 4c. Data notes
 
-- **We store only ranks and tiers, with citations.** We don't redistribute full proprietary datasets. Licences are confirmed per source before committing.
+- **We store only published ranks and benchmark tiers, with citations.** We don't redistribute full proprietary datasets. Licences are confirmed per source before committing.
 - **Some benchmarks have quirks:**
   - Mecca ranks highly on tourism but is closed to non-Muslims.
   - Moscow is currently excluded from GFCI.
   - Airport hub rankings (e.g. OAG Megahubs) measure transfers, not destination value, so they are not used.
-- **The data alone probably won't put Russia level with the UAE.** Sanctions have pushed Moscow down on finance and tourism. This is one reason the opinion layer exists.
+- **Russia may come out below the UAE.** Sanctions have pushed Moscow down on finance and tourism. If the gap is large, Russia is the likely first override.
 
-## 5. Opinion layer
+## 5. Overrides
 
-A YAML file assigns every country to a tier, with a one-line reason.
+A small YAML file that adjusts a country's value only where the data is clearly wrong.
 
-| Tier | Value | Illustrative members (draft, to be edited) |
-|---|---|---|
-| **S** | 100 | United States, Schengen Area (as one bloc), United Kingdom |
-| **A** | 50 | China, Russia, UAE, Singapore, Japan, Canada, Australia, Hong Kong |
-| **B** | 20 | South Korea, India, Saudi Arabia, Türkiye, Brazil, Mexico, Thailand, … |
-| **C** | 8 | Most mid-sized economies and major tourist countries |
-| **D** | 3 | Smaller countries |
-| **E** | 1 | Microstates and hard-to-reach territories |
+| Field | Example |
+|---|---|
+| Country | `RUS` |
+| Adjusted value | Set equal to the UAE's value |
+| Reason | One line, shown in the report |
 
-- **Schengen is scored as one destination.** One visa covers the whole area, so it is one bloc in the tier list and in the score. It is not 29 separate countries.
-- Tier values are knobs too. The gap between S and A decides how much US access matters.
-- The file is explicitly opinionated and versioned. Disagreements become pull requests, not hidden constants.
+- **We look at the data first.** Overrides are added after reviewing the destination value table in the report, never in advance.
+- **Every override is listed openly** in the report.
+- **A growing list is a warning sign.** If it grows past a handful of countries, we fix the benchmarks or weights instead.
 
 ## 6. How we'll judge it
 
 These are not tests that force an answer. They are a checklist for reading the report:
 
-- [ ] US access is the single largest destination value.
-- [ ] China, Russia, the UAE and Singapore land within roughly the same range.
+- [ ] The US, Schengen and the UK have the three largest destination values.
+- [ ] Russia ≈ the UAE; Japan > Russia; China ≠ Japan.
 - [ ] Malaysia falls behind Singapore and Switzerland, and the report shows why (bottlenecks).
 - [ ] No destination has value 0 (the floor works).
-- [ ] Rankings don't flip wildly when `d` or `λ` move a little.
+- [ ] Rankings don't flip wildly when `d` or the pillar weights move a little.
+- [ ] The override list stays short.
 
 ## 7. Open questions
 
 - Should the cost pillar be in at all? Expensive often tracks rich and desirable, but it also rewards places that are simply costly.
 - Should we use the GaWC tiers or the Kearney GCI for connectivity, or average both?
 - Should tourism use city arrivals (Euromonitor) or country arrivals (UN Tourism, which is open data)?
-- Who owns the tier list, and how are changes reviewed?
+- Who approves overrides, and how are changes reviewed?

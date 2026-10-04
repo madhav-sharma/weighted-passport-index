@@ -48,7 +48,7 @@ The score is shown as **"% of the world's value you can reach"**: the score divi
 |---|---|
 | Visa matrix (≈199 × 199) | Open passport-index CSV dataset (GitHub, open licence), at a pinned date |
 | Country codes, territories | ISO-3166 alpha-3, plus a small mapping file for Hong Kong, Macau, Taiwan, Kosovo, Palestine, etc. |
-| Destination value inputs | City benchmarks and tier list (see [the methodology](methodology.md)) |
+| Destination value inputs | City benchmarks and override list (see [the methodology](methodology.md)) |
 
 ## 6. Plan
 
@@ -75,7 +75,8 @@ Python script: fetch → clean → score → scores.json   (committed)
 
 - No GDP and no land area in destination value.
 - Conditional exemptions are ignored.
-- Schengen counts as one destination (one bloc, S tier).
+- Schengen counts as one destination (one bloc).
+- No hand-assigned tiers. Value comes from city benchmarks, plus a short override list only where the data is clearly wrong.
 - One recent snapshot, no history.
 - Script → static JSON → Markdown report first. The website comes after reviewing the ranking.
 
