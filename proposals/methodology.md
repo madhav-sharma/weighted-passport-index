@@ -8,9 +8,8 @@ A country is worth visiting for **its cities**: where business happens, where mo
 
 ## 2. What it should get right
 
-- **The US, the Schengen Area and the UK are the top destinations.**
+- **The US, the Schengen Area, the UK and Japan are the top destinations,** at equal maximum value.
 - **Russia and the UAE are about equal.** Dubai is in high demand, even among Russians, which makes up for the UAE's small size.
-- **Japan is worth more than Russia,** and **China and Japan are not equal.**
 - **China's GDP doesn't make it worth ten Singapores.**
 - **Small destinations still count, just a little.**
 - **Every number can be traced back to a published source or a stated override.**
@@ -18,12 +17,14 @@ A country is worth visiting for **its cities**: where business happens, where mo
 ## 3. Approach
 
 ```
-Value(j) = DataValue(j)   (unless an override applies)
+Value(j) = 100                         if j is pinned (US, Schengen, UK, Japan)
+         = min(100, DataValue(j) / R)  otherwise
 ```
 
+- **Four destinations are pinned at the maximum of 100** by hand (§5).
+- **Every other destination is valued from global-city benchmarks** (§4) on the same 0–100 scale.
+- **`R` is the lowest raw `DataValue` among the pinned four.** Scaling by it means a country that matches the weakest pinned destination also scores 100, and none can exceed it.
 - **No hand-assigned tiers.** Tiers proved too coarse: every bucket mixed countries that aren't really equal.
-- **Value comes from global-city benchmarks** (§4).
-- **A short override list** fixes only the cases the data clearly gets wrong (§5).
 
 ## 4. Data layer
 
@@ -71,24 +72,25 @@ DataValue(j) = c₁ + d·c₂ + d²·c₃ + d³·c₄ + …   (+ a small floor s
 
 ## 5. Overrides
 
-A small YAML file that adjusts a country's value only where the data is clearly wrong.
+A small YAML file of hand-set values, each with a one-line reason shown in the report.
 
-| Field | Example |
-|---|---|
-| Country | `RUS` |
-| Adjusted value | Set equal to the UAE's value |
-| Reason | One line, shown in the report |
+| Destination | Value | Reason |
+|---|---|---|
+| United States | 100 | The world's most important destination for business, finance and travel |
+| Schengen Area (one bloc) | 100 | One visa opens Paris, Frankfurt, Amsterdam, Milan and 25+ other countries |
+| United Kingdom | 100 | London is the world's most connected city |
+| Japan | 100 | Top-tier destination for business and tourism |
 
-- **We look at the data first.** Overrides are added after reviewing the destination value table in the report, never in advance.
-- **Every override is listed openly** in the report.
+- **The benchmark values for the pinned four are still computed and shown** in the report, for transparency.
+- **Further overrides are added only after reviewing the data,** never in advance. Russia is the likely candidate if it lands far below the UAE.
 - **A growing list is a warning sign.** If it grows past a handful of countries, we fix the benchmarks or weights instead.
 
 ## 6. How we'll judge it
 
 These are not tests that force an answer. They are a checklist for reading the report:
 
-- [ ] The US, Schengen and the UK have the three largest destination values.
-- [ ] Russia ≈ the UAE; Japan > Russia; China ≠ Japan.
+- [ ] No unpinned destination comes close to 100 without a clear reason.
+- [ ] Russia ≈ the UAE.
 - [ ] Malaysia falls behind Singapore and Switzerland, and the report shows why (bottlenecks).
 - [ ] No destination has value 0 (the floor works).
 - [ ] Rankings don't flip wildly when `d` or the pillar weights move a little.

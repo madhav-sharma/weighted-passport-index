@@ -76,7 +76,7 @@ Python script: fetch → clean → score → scores.json   (committed)
 - No GDP and no land area in destination value.
 - Conditional exemptions are ignored.
 - Schengen counts as one destination (one bloc).
-- No hand-assigned tiers. Value comes from city benchmarks, plus a short override list only where the data is clearly wrong.
+- The US, Schengen, the UK and Japan are pinned at the maximum value. Every other destination is valued from city benchmarks. There are no hand-assigned tiers.
 - One recent snapshot, no history.
 - Script → static JSON → Markdown report first. The website comes after reviewing the ranking.
 
