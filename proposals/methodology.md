@@ -8,7 +8,7 @@ A country is worth visiting for **its cities**: where business happens, where mo
 
 ## 2. What it should get right
 
-- **The US, the Schengen Area, the UK and Japan are the top destinations,** at equal maximum value.
+- **The US, the Schengen Area and the UK are the top destinations,** at maximum value. **Japan joins them if its entry is as strict as theirs,** otherwise it sits just below at 75.
 - **Russia and the UAE are about equal.** Dubai is in high demand, even among Russians, which makes up for the UAE's small size.
 - **China's GDP doesn't make it worth ten Singapores.**
 - **Small destinations still count, just a little.**
@@ -79,9 +79,13 @@ A small YAML file of hand-set values, each with a one-line reason shown in the r
 | United States | 100 | The world's most important destination for business, finance and travel |
 | Schengen Area (one bloc) | 100 | One visa opens Paris, Frankfurt, Amsterdam, Milan and 25+ other countries |
 | United Kingdom | 100 | London is the world's most connected city |
-| Japan | 100 | Top-tier destination for business and tourism |
+| Japan | 100 *(conditional)* | Very strict entry: most passports need a visa, so access is a real mark of passport strength |
 
 - **The benchmark values for the pinned four are still computed and shown** in the report, for transparency.
+- **Japan's 100 must be confirmed by the visa data.** The script measures strictness as the share of the world's passports that need an embassy visa for Japan.
+  - If Japan is about as strict as the least strict of the US, Schengen and the UK, it stays at 100.
+  - If not, it drops to **75**.
+  - The report shows the strictness of all four.
 - **Further overrides are added only after reviewing the data,** never in advance. Russia is the likely candidate if it lands far below the UAE.
 - **A growing list is a warning sign.** If it grows past a handful of countries, we fix the benchmarks or weights instead.
 

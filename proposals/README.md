@@ -76,7 +76,7 @@ Python script: fetch → clean → score → scores.json   (committed)
 - No GDP and no land area in destination value.
 - Conditional exemptions are ignored.
 - Schengen counts as one destination (one bloc).
-- The US, Schengen, the UK and Japan are pinned at the maximum value. Every other destination is valued from city benchmarks. There are no hand-assigned tiers.
+- The US, Schengen and the UK are pinned at the maximum value. Japan is too, if the visa data confirms it is as strict as those three; otherwise it is 75. Every other destination is valued from city benchmarks. There are no hand-assigned tiers.
 - One recent snapshot, no history.
 - Script → static JSON → Markdown report first. The website comes after reviewing the ranking.
 
