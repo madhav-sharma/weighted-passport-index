@@ -1,0 +1,101 @@
+city,country_iso3,rank,arrivals_millions,year
+Hong Kong,HKG,1,29.26,2019
+Bangkok,THA,2,24.18,2019
+London,GBR,3,19.23,2019
+Macau,MAC,4,18.93,2019
+Singapore,SGP,5,18.55,2019
+Paris,FRA,6,17.56,2019
+Dubai,ARE,7,15.92,2019
+New York,USA,8,13.60,2019
+Kuala Lumpur,MYS,9,13.43,2019
+Istanbul,TUR,10,13.43,2019
+New Delhi,IND,11,12.65,2019
+Antalya,TUR,12,12.44,2019
+Shenzhen,CHN,13,12.20,2019
+Mumbai,IND,14,10.59,2019
+Phuket,THA,15,10.55,2019
+Rome,ITA,16,10.07,2019
+Tokyo,JPN,17,9.99,2019
+Pattaya,THA,18,9.61,2019
+Taipei,TWN,19,9.60,2019
+Mecca,SAU,20,9.57,2019
+Guangzhou,CHN,21,9.00,2019
+Prague,CZE,22,8.95,2019
+Medina,SAU,23,8.55,2019
+Seoul,KOR,24,8.43,2019
+Amsterdam,NLD,25,8.35,2019
+Agra,IND,26,8.14,2019
+Miami,USA,27,8.12,2019
+Osaka,JPN,28,7.86,2019
+Los Angeles,USA,29,7.50,2019
+Shanghai,CHN,30,7.48,2019
+Ho Chi Minh City,VNM,31,7.20,2019
+Denpasar,IDN,32,7.19,2019
+Barcelona,ESP,33,6.71,2019
+Las Vegas,USA,34,6.59,2019
+Milan,ITA,35,6.48,2019
+Chennai,IND,36,6.42,2019
+Vienna,AUT,37,6.41,2019
+Johor Bahru,MYS,38,6.40,2019
+Jaipur,IND,39,6.38,2019
+Cancun,MEX,40,6.04,2019
+Berlin,DEU,41,5.96,2019
+Cairo,EGY,42,5.75,2019
+Athens,GRC,43,5.73,2019
+Orlando,USA,44,5.55,2019
+Moscow,RUS,45,5.51,2019
+Venice,ITA,46,5.50,2019
+Madrid,ESP,47,5.44,2019
+Ha Long,VNM,48,5.29,2019
+Riyadh,SAU,49,5.27,2019
+Dublin,IRL,50,5.21,2019
+Florence,ITA,51,5.06,2019
+Hanoi,VNM,52,4.69,2019
+Toronto,CAN,53,4.51,2019
+Johannesburg,ZAF,54,4.12,2019
+Sydney,AUS,55,4.09,2019
+Munich,DEU,56,4.07,2019
+Jakarta,IDN,57,4.03,2019
+Beijing,CHN,58,4.00,2019
+Saint Petersburg,RUS,59,4.00,2019
+Brussels,BEL,60,3.94,2019
+Jerusalem,ISR,61,3.93,2019
+Budapest,HUN,62,3.82,2019
+Lisbon,PRT,63,3.54,2019
+Dammam,SAU,64,3.50,2019
+Penang,MYS,65,3.44,2019
+Heraklion,GRC,66,3.37,2019
+Kyoto,JPN,67,3.29,2019
+Zhuhai,CHN,68,3.26,2019
+Vancouver,CAN,69,3.21,2019
+Chiang Mai,THA,70,3.20,2019
+Copenhagen,DNK,71,3.07,2019
+San Francisco,USA,72,2.90,2019
+Melbourne,AUS,73,2.89,2019
+Krakow,POL,74,2.85,2019
+Marrakech,MAR,75,2.84,2019
+Kolkata,IND,76,2.83,2019
+Cebu,PHL,77,2.81,2019
+Auckland,NZL,78,2.80,2019
+Tel Aviv,ISR,79,2.78,2019
+Guilin,CHN,80,2.75,2019
+Honolulu,USA,81,2.74,2019
+Hurghada,EGY,82,2.74,2019
+Warsaw,POL,83,2.73,2019
+Mugla,TUR,84,2.72,2019
+Buenos Aires,ARG,85,2.69,2019
+Chiba,JPN,86,2.68,2019
+Frankfurt,DEU,87,2.64,2019
+Stockholm,SWE,88,2.60,2019
+Lima,PER,89,2.54,2019
+Da Nang,VNM,90,2.51,2019
+Batam,IDN,91,2.49,2019
+Nice,FRA,92,2.47,2019
+Fukuoka,JPN,93,2.44,2019
+Abu Dhabi,ARE,94,2.40,2019
+Jeju,KOR,95,2.35,2019
+Porto,PRT,96,2.34,2019
+Rhodes,GRC,97,2.34,2019
+Rio de Janeiro,BRA,98,2.28,2019
+Krabi,THA,99,2.26,2019
+Bengaluru,IND,100,2.24,2019

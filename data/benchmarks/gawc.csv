@@ -1,0 +1,336 @@
+city,country_iso3,tier
+London,GBR,Alpha++
+New York,USA,Alpha++
+Hong Kong,HKG,Alpha+
+Beijing,CHN,Alpha+
+Singapore,SGP,Alpha+
+Shanghai,CHN,Alpha+
+Paris,FRA,Alpha+
+Dubai,ARE,Alpha+
+Tokyo,JPN,Alpha+
+Sydney,AUS,Alpha+
+Seoul,KOR,Alpha
+Milan,ITA,Alpha
+Toronto,CAN,Alpha
+Frankfurt,DEU,Alpha
+Chicago,USA,Alpha
+Jakarta,IDN,Alpha
+Sao Paulo,BRA,Alpha
+Mexico City,MEX,Alpha
+Mumbai,IND,Alpha
+Madrid,ESP,Alpha
+Warsaw,POL,Alpha
+Guangzhou,CHN,Alpha
+Istanbul,TUR,Alpha
+Amsterdam,NLD,Alpha
+Bangkok,THA,Alpha
+Los Angeles,USA,Alpha
+Kuala Lumpur,MYS,Alpha
+Luxembourg,LUX,Alpha-
+Taipei,TWN,Alpha-
+Shenzhen,CHN,Alpha-
+Brussels,BEL,Alpha-
+Zurich,CHE,Alpha-
+Buenos Aires,ARG,Alpha-
+Melbourne,AUS,Alpha-
+San Francisco,USA,Alpha-
+Riyadh,SAU,Alpha-
+Santiago,CHL,Alpha-
+Dusseldorf,DEU,Alpha-
+Stockholm,SWE,Alpha-
+Washington DC,USA,Alpha-
+Vienna,AUT,Alpha-
+Lisbon,PRT,Alpha-
+Munich,DEU,Alpha-
+Dublin,IRL,Alpha-
+Houston,USA,Alpha-
+Berlin,DEU,Alpha-
+Johannesburg,ZAF,Alpha-
+Boston,USA,Alpha-
+New Delhi,IND,Alpha-
+Bogota,COL,Beta+
+Ho Chi Minh City,VNM,Beta+
+Rome,ITA,Beta+
+Bengaluru,IND,Beta+
+Budapest,HUN,Beta+
+Athens,GRC,Beta+
+Hamburg,DEU,Beta+
+Doha,QAT,Beta+
+Chengdu,CHN,Beta+
+Miami,USA,Beta+
+Tianjin,CHN,Beta+
+Dallas,USA,Beta+
+Atlanta,USA,Beta+
+Auckland,NZL,Beta+
+Barcelona,ESP,Beta+
+Hangzhou,CHN,Beta+
+Bucharest,ROU,Beta+
+Lima,PER,Beta+
+Montreal,CAN,Beta+
+Prague,CZE,Beta+
+Chongqing,CHN,Beta
+Tel Aviv,ISR,Beta
+Brisbane,AUS,Beta
+Cairo,EGY,Beta
+Hanoi,VNM,Beta
+Nanjing,CHN,Beta
+Oslo,NOR,Beta
+Perth,AUS,Beta
+Abu Dhabi,ARE,Beta
+Copenhagen,DNK,Beta
+Manama,BHR,Beta
+Wuhan,CHN,Beta
+Manila,PHL,Beta
+Xiamen,CHN,Beta
+Nairobi,KEN,Beta
+Kyiv,UKR,Beta
+Geneva,CHE,Beta
+Jinan,CHN,Beta
+Calgary,CAN,Beta
+Zhengzhou,CHN,Beta
+Shenyang,CHN,Beta
+Dalian,CHN,Beta
+Suzhou,CHN,Beta
+Qingdao,CHN,Beta-
+Casablanca,MAR,Beta-
+Changsha,CHN,Beta-
+Beirut,LBN,Beta-
+Port Louis,MUS,Beta-
+Denver,USA,Beta-
+Lagos,NGA,Beta-
+Belgrade,SRB,Beta-
+Montevideo,URY,Beta-
+Vancouver,CAN,Beta-
+Seattle,USA,Beta-
+Manchester,GBR,Beta-
+Sofia,BGR,Beta-
+Bratislava,SVK,Beta-
+Rio de Janeiro,BRA,Beta-
+Lyon,FRA,Beta-
+Xi'an,CHN,Beta-
+Helsinki,FIN,Beta-
+Kunming,CHN,Beta-
+Zagreb,HRV,Beta-
+Nicosia,CYP,Beta-
+Karachi,PAK,Beta-
+Caracas,VEN,Beta-
+Hefei,CHN,Beta-
+Stuttgart,DEU,Beta-
+Panama City,PAN,Beta-
+Chennai,IND,Beta-
+Philadelphia,USA,Beta-
+Tunis,TUN,Gamma+
+Fuzhou,CHN,Gamma+
+Guatemala City,GTM,Gamma+
+Hyderabad,IND,Gamma+
+Cape Town,ZAF,Gamma+
+Dhaka,BGD,Gamma+
+Porto,PRT,Gamma+
+Austin,USA,Gamma+
+San Diego,USA,Gamma+
+Minneapolis,USA,Gamma+
+Antwerp,BEL,Gamma+
+Almaty,KAZ,Gamma+
+Amman,JOR,Gamma+
+Santo Domingo,DOM,Gamma+
+Rotterdam,NLD,Gamma+
+Adelaide,AUS,Gamma+
+Lahore,PAK,Gamma+
+Colombo,LKA,Gamma+
+Taiyuan,CHN,Gamma+
+Kuwait City,KWT,Gamma+
+Monterrey,MEX,Gamma
+Osaka,JPN,Gamma
+Haikou,CHN,Gamma
+Tbilisi,GEO,Gamma
+Tampa,USA,Gamma
+Tirana,ALB,Gamma
+Quito,ECU,Gamma
+Nashville,USA,Gamma
+Islamabad,PAK,Gamma
+Kampala,UGA,Gamma
+San Salvador,SLV,Gamma
+Muscat,OMN,Gamma
+Phnom Penh,KHM,Gamma
+Birmingham,GBR,Gamma
+Pune,IND,Gamma
+Ningbo,CHN,Gamma
+Harbin,CHN,Gamma
+San Jose,USA,Gamma
+Bologna,ITA,Gamma
+San Jose,CRI,Gamma
+Ahmedabad,IND,Gamma
+Bristol,GBR,Gamma
+Tegucigalpa,HND,Gamma
+Riga,LVA,Gamma
+Detroit,USA,Gamma
+Poznan,POL,Gamma-
+Labuan,MYS,Gamma-
+Charlotte,USA,Gamma-
+Pittsburgh,USA,Gamma-
+Valencia,ESP,Gamma-
+Edinburgh,GBR,Gamma-
+Jeddah,SAU,Gamma-
+Turin,ITA,Gamma-
+Katowice,POL,Gamma-
+Baku,AZE,Gamma-
+Penang,MYS,Gamma-
+Dar es Salaam,TZA,Gamma-
+Wellington,NZL,Gamma-
+Managua,NIC,Gamma-
+Cleveland,USA,Gamma-
+Nanchang,CHN,Gamma-
+Changchun,CHN,Gamma-
+Cali,COL,Gamma-
+St. Louis,USA,Gamma-
+Ljubljana,SVN,Gamma-
+Baltimore,USA,Gamma-
+Bilbao,ESP,Gamma-
+Marseille,FRA,Gamma-
+Surabaya,IDN,Gamma-
+Accra,GHA,Gamma-
+Izmir,TUR,High Sufficiency
+Harare,ZWE,High Sufficiency
+Maputo,MOZ,High Sufficiency
+Vilnius,LTU,High Sufficiency
+Macau,MAC,High Sufficiency
+Gothenburg,SWE,High Sufficiency
+Raleigh,USA,High Sufficiency
+Queretaro,MEX,High Sufficiency
+Glasgow,GBR,High Sufficiency
+Zhuhai,CHN,High Sufficiency
+Phoenix,USA,High Sufficiency
+Dakar,SEN,High Sufficiency
+Cincinnati,USA,High Sufficiency
+Skopje,MKD,High Sufficiency
+Kansas City,USA,High Sufficiency
+Limassol,CYP,High Sufficiency
+La Paz,BOL,High Sufficiency
+Leeds,GBR,High Sufficiency
+Guayaquil,ECU,High Sufficiency
+Hartford,USA,High Sufficiency
+Belfast,GBR,High Sufficiency
+Indianapolis,USA,High Sufficiency
+Algiers,DZA,High Sufficiency
+Shijiazhuang,CHN,High Sufficiency
+Lusaka,ZMB,High Sufficiency
+Guadalajara,MEX,High Sufficiency
+Strasbourg,FRA,Sufficiency
+Columbus,USA,Sufficiency
+Ankara,TUR,Sufficiency
+Johor Bahru,MYS,Sufficiency
+Ottawa,CAN,Sufficiency
+Wroclaw,POL,Sufficiency
+Urumqi,CHN,Sufficiency
+Christchurch,NZL,Sufficiency
+Douala,CMR,Sufficiency
+Tashkent,UZB,Sufficiency
+Lausanne,CHE,Sufficiency
+Malaga,ESP,Sufficiency
+Wuxi,CHN,Sufficiency
+George Town,CYM,Sufficiency
+Salt Lake City,USA,Sufficiency
+Tallinn,EST,Sufficiency
+Nantes,FRA,Sufficiency
+Medellin,COL,Sufficiency
+Edmonton,CAN,Sufficiency
+Utrecht,NLD,Sufficiency
+Taichung,TWN,Sufficiency
+Campinas,BRA,Sufficiency
+Lille,FRA,Sufficiency
+Abuja,NGA,Sufficiency
+Yangon,MMR,Sufficiency
+Krakow,POL,Sufficiency
+Jacksonville,USA,Sufficiency
+Southampton,GBR,Sufficiency
+San Antonio,USA,Sufficiency
+Belo Horizonte,BRA,Sufficiency
+Leipzig,DEU,Sufficiency
+Newcastle,GBR,Sufficiency
+Naples,ITA,Sufficiency
+Curitiba,BRA,Sufficiency
+Luanda,AGO,Sufficiency
+Abidjan,CIV,Sufficiency
+Milwaukee,USA,Sufficiency
+Nassau,BHS,Sufficiency
+Gaborone,BWA,Sufficiency
+Puebla,MEX,Sufficiency
+Toulouse,FRA,Sufficiency
+Brasilia,BRA,Sufficiency
+Podgorica,MNE,Sufficiency
+Kaohsiung,TWN,Sufficiency
+Bern,CHE,Sufficiency
+Porto Alegre,BRA,Sufficiency
+Malmo,SWE,Sufficiency
+Des Moines,USA,Sufficiency
+Guiyang,CHN,Sufficiency
+Nice,FRA,Sufficiency
+Tijuana,MEX,Sufficiency
+Nanning,CHN,Sufficiency
+Canberra,AUS,Sufficiency
+Nuremberg,DEU,Sufficiency
+Port of Spain,TTO,Sufficiency
+Cordoba,ARG,Sufficiency
+Sarajevo,BIH,Sufficiency
+Foshan,CHN,Sufficiency
+Bordeaux,FRA,Sufficiency
+Florence,ITA,Sufficiency
+Oklahoma City,USA,Sufficiency
+Astana,KAZ,Sufficiency
+Genoa,ITA,Sufficiency
+Nagoya,JPN,Sufficiency
+Lanzhou,CHN,Sufficiency
+Durban,ZAF,Sufficiency
+Dongguan,CHN,Sufficiency
+Portland,USA,Sufficiency
+San Juan,PRI,Sufficiency
+Bergen,NOR,Sufficiency
+Yerevan,ARM,Sufficiency
+Richmond,USA,Sufficiency
+Santa Cruz de la Sierra,BOL,Sufficiency
+Asuncion,PRY,Sufficiency
+Sacramento,USA,Sufficiency
+Cebu,PHL,Sufficiency
+Hohhot,CHN,Sufficiency
+Cologne,DEU,Sufficiency
+The Hague,NLD,Sufficiency
+Birmingham,USA,Sufficiency
+Las Vegas,USA,Sufficiency
+Ciudad Juarez,MEX,Sufficiency
+Winnipeg,CAN,Sufficiency
+Orlando,USA,Sufficiency
+Windhoek,NAM,Sufficiency
+Hanover,DEU,Sufficiency
+Louisville,USA,Sufficiency
+Aberdeen,GBR,Sufficiency
+Liege,BEL,Sufficiency
+Liverpool,GBR,Sufficiency
+Basel,CHE,Sufficiency
+Tulsa,USA,Sufficiency
+Mannheim,DEU,Sufficiency
+Palo Alto,USA,Sufficiency
+San Pedro Sula,HND,Sufficiency
+Seville,ESP,Sufficiency
+Recife,BRA,Sufficiency
+Alexandria,EGY,Sufficiency
+Moscow,RUS,Sufficiency
+Vientiane,LAO,Sufficiency
+Tangshan,CHN,Sufficiency
+Ulaanbaatar,MNG,Sufficiency
+Salvador,BRA,Sufficiency
+Memphis,USA,Sufficiency
+Yinchuan,CHN,Sufficiency
+Linz,AUT,Sufficiency
+Kolkata,IND,Sufficiency
+Halifax,CAN,Sufficiency
+San Luis Potosi,MEX,Sufficiency
+Barranquilla,COL,Sufficiency
+Libreville,GAB,Sufficiency
+Lodz,POL,Sufficiency
+Hamilton,BMU,Sufficiency
+Dresden,DEU,Sufficiency
+Aarhus,DNK,Sufficiency
+Baoding,CHN,Sufficiency
+Wenzhou,CHN,Sufficiency
+Blantyre,MWI,Sufficiency
+Nottingham,GBR,Sufficiency

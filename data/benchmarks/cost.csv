@@ -1,0 +1,104 @@
+city,country_iso3,rank,source,year
+Hong Kong,HKG,1,Mercer Cost of Living City Ranking 2024,2024
+Singapore,SGP,2,Mercer Cost of Living City Ranking 2024,2024
+Zurich,CHE,3,Mercer Cost of Living City Ranking 2024,2024
+Geneva,CHE,4,Mercer Cost of Living City Ranking 2024,2024
+Basel,CHE,5,Mercer Cost of Living City Ranking 2024,2024
+Bern,CHE,6,Mercer Cost of Living City Ranking 2024,2024
+New York,USA,7,Mercer Cost of Living City Ranking 2024,2024
+London,GBR,8,Mercer Cost of Living City Ranking 2024,2024
+Nassau,BHS,9,Mercer Cost of Living City Ranking 2024,2024
+Los Angeles,USA,10,Mercer Cost of Living City Ranking 2024,2024
+Copenhagen,DNK,11,Mercer Cost of Living City Ranking 2024,2024
+Honolulu,USA,12,Mercer Cost of Living City Ranking 2024,2024
+San Francisco,USA,13,Mercer Cost of Living City Ranking 2024,2024
+Bangui,CAF,14,Mercer Cost of Living City Ranking 2024,2024
+Dubai,ARE,15,Mercer Cost of Living City Ranking 2024,2024
+Tel Aviv,ISR,16,Mercer Cost of Living City Ranking 2024,2024
+Miami,USA,17,Mercer Cost of Living City Ranking 2024,2024
+Djibouti,DJI,18,Mercer Cost of Living City Ranking 2024,2024
+Boston,USA,19,Mercer Cost of Living City Ranking 2024,2024
+Chicago,USA,20,Mercer Cost of Living City Ranking 2024,2024
+N'Djamena,TCD,21,Mercer Cost of Living City Ranking 2024,2024
+Shanghai,CHN,23,Mercer Cost of Living City Ranking 2024,2024
+Vienna,AUT,24,Mercer Cost of Living City Ranking 2024,2024
+Beijing,CHN,25,Mercer Cost of Living City Ranking 2024,2024
+Paris,FRA,29,Mercer Cost of Living City Ranking 2024,2024
+Amsterdam,NLD,30,Mercer Cost of Living City Ranking 2024,2024
+Berlin,DEU,31,Mercer Cost of Living City Ranking 2024,2024
+Seoul,KOR,32,Mercer Cost of Living City Ranking 2024,2024
+Mexico City,MEX,33,Mercer Cost of Living City Ranking 2024,2024
+Shenzhen,CHN,34,Mercer Cost of Living City Ranking 2024,2024
+Frankfurt,DEU,35,Mercer Cost of Living City Ranking 2024,2024
+Brussels,BEL,37,Mercer Cost of Living City Ranking 2024,2024
+Munich,DEU,38,Mercer Cost of Living City Ranking 2024,2024
+Helsinki,FIN,40,Mercer Cost of Living City Ranking 2024,2024
+Dublin,IRL,41,Mercer Cost of Living City Ranking 2024,2024
+Montevideo,URY,42,Mercer Cost of Living City Ranking 2024,2024
+Abu Dhabi,ARE,43,Mercer Cost of Living City Ranking 2024,2024
+Luxembourg,LUX,47,Mercer Cost of Living City Ranking 2024,2024
+Tokyo,JPN,49,Mercer Cost of Living City Ranking 2024,2024
+Dusseldorf,DEU,51,Mercer Cost of Living City Ranking 2024,2024
+Oslo,NOR,52,Mercer Cost of Living City Ranking 2024,2024
+Edinburgh,GBR,53,Mercer Cost of Living City Ranking 2024,2024
+Hamburg,DEU,54,Mercer Cost of Living City Ranking 2024,2024
+Milan,ITA,57,Mercer Cost of Living City Ranking 2024,2024
+Sydney,AUS,58,Mercer Cost of Living City Ranking 2024,2024
+Rome,ITA,67,Mercer Cost of Living City Ranking 2024,2024
+Glasgow,GBR,68,Mercer Cost of Living City Ranking 2024,2024
+Taipei,TWN,69,Mercer Cost of Living City Ranking 2024,2024
+Stuttgart,DEU,70,Mercer Cost of Living City Ranking 2024,2024
+Guangzhou,CHN,71,Mercer Cost of Living City Ranking 2024,2024
+Melbourne,AUS,73,Mercer Cost of Living City Ranking 2024,2024
+Madrid,ESP,76,Mercer Cost of Living City Ranking 2024,2024
+Buenos Aires,ARG,77,Mercer Cost of Living City Ranking 2024,2024
+Birmingham,GBR,78,Mercer Cost of Living City Ranking 2024,2024
+Kinshasa,COD,79,Mercer Cost of Living City Ranking 2024,2024
+Aberdeen,GBR,82,Mercer Cost of Living City Ranking 2024,2024
+Belfast,GBR,87,Mercer Cost of Living City Ranking 2024,2024
+Brisbane,AUS,89,Mercer Cost of Living City Ranking 2024,2024
+Riyadh,SAU,90,Mercer Cost of Living City Ranking 2024,2024
+Toronto,CAN,92,Mercer Cost of Living City Ranking 2024,2024
+Jeddah,SAU,97,Mercer Cost of Living City Ranking 2024,2024
+Lisbon,PRT,100,Mercer Cost of Living City Ranking 2024,2024
+Vancouver,CAN,101,Mercer Cost of Living City Ranking 2024,2024
+Stockholm,SWE,102,Mercer Cost of Living City Ranking 2024,2024
+Canberra,AUS,106,Mercer Cost of Living City Ranking 2024,2024
+Adelaide,AUS,107,Mercer Cost of Living City Ranking 2024,2024
+Amman,JOR,108,Mercer Cost of Living City Ranking 2024,2024
+Manama,BHR,110,Mercer Cost of Living City Ranking 2024,2024
+Auckland,NZL,111,Mercer Cost of Living City Ranking 2024,2024
+Montreal,CAN,118,Mercer Cost of Living City Ranking 2024,2024
+Kuwait City,KWT,119,Mercer Cost of Living City Ranking 2024,2024
+Doha,QAT,121,Mercer Cost of Living City Ranking 2024,2024
+Muscat,OMN,122,Mercer Cost of Living City Ranking 2024,2024
+Phnom Penh,KHM,123,Mercer Cost of Living City Ranking 2024,2024
+Sao Paulo,BRA,124,Mercer Cost of Living City Ranking 2024,2024
+Ottawa,CAN,126,Mercer Cost of Living City Ranking 2024,2024
+Bangkok,THA,129,Mercer Cost of Living City Ranking 2024,2024
+Manila,PHL,131,Mercer Cost of Living City Ranking 2024,2024
+Taichung,TWN,132,Mercer Cost of Living City Ranking 2024,2024
+Mumbai,IND,136,Mercer Cost of Living City Ranking 2024,2024
+Calgary,CAN,141,Mercer Cost of Living City Ranking 2024,2024
+Wellington,NZL,145,Mercer Cost of Living City Ranking 2024,2024
+Osaka,JPN,146,Mercer Cost of Living City Ranking 2024,2024
+Kaohsiung,TWN,149,Mercer Cost of Living City Ranking 2024,2024
+Panama City,PAN,151,Mercer Cost of Living City Ranking 2024,2024
+Yokohama,JPN,154,Mercer Cost of Living City Ranking 2024,2024
+Jakarta,IDN,157,Mercer Cost of Living City Ranking 2024,2024
+Santiago,CHL,160,Mercer Cost of Living City Ranking 2024,2024
+Nagoya,JPN,161,Mercer Cost of Living City Ranking 2024,2024
+New Delhi,IND,164,Mercer Cost of Living City Ranking 2024,2024
+Lima,PER,166,Mercer Cost of Living City Ranking 2024,2024
+Hanoi,VNM,172,Mercer Cost of Living City Ranking 2024,2024
+Bogota,COL,174,Mercer Cost of Living City Ranking 2024,2024
+Ho Chi Minh City,VNM,178,Mercer Cost of Living City Ranking 2024,2024
+Chennai,IND,189,Mercer Cost of Living City Ranking 2024,2024
+Bengaluru,IND,195,Mercer Cost of Living City Ranking 2024,2024
+Kuala Lumpur,MYS,200,Mercer Cost of Living City Ranking 2024,2024
+Hyderabad,IND,202,Mercer Cost of Living City Ranking 2024,2024
+Pune,IND,205,Mercer Cost of Living City Ranking 2024,2024
+Kolkata,IND,207,Mercer Cost of Living City Ranking 2024,2024
+Abuja,NGA,224,Mercer Cost of Living City Ranking 2024,2024
+Lagos,NGA,225,Mercer Cost of Living City Ranking 2024,2024
+Islamabad,PAK,226,Mercer Cost of Living City Ranking 2024,2024

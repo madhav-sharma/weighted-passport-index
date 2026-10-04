@@ -1,0 +1,118 @@
+city,country_iso3,rank,rating
+New York,USA,1,761
+London,GBR,2,757
+Hong Kong,HKG,3,756
+Singapore,SGP,4,755
+Shanghai,CHN,5,754
+Tokyo,JPN,6,753
+Seoul,KOR,7,752
+Shenzhen,CHN,8,751
+Dubai,ARE,9,750
+Zurich,CHE,10,749
+San Francisco,USA,11,748
+Geneva,CHE,12,747
+Abu Dhabi,ARE,13,746
+Los Angeles,USA,14,745
+Chicago,USA,15,744
+Beijing,CHN,16,743
+Luxembourg,LUX,17,742
+Boston,USA,18,741
+Washington DC,USA,19,740
+Osaka,JPN,20,739
+Lugano,CHE,21,738
+Busan,KOR,22,737
+Paris,FRA,23,736
+Sydney,AUS,24,735
+Copenhagen,DNK,25,734
+Amsterdam,NLD,26,733
+Atlanta,USA,27,732
+Guangzhou,CHN,28,731
+Frankfurt,DEU,29,730
+Dublin,IRL,30,729
+Qingdao,CHN,31,728
+Melbourne,AUS,32,727
+Edinburgh,GBR,33,726
+Chengdu,CHN,34,725
+Stockholm,SWE,35,724
+Miami,USA,36,723
+GIFT City,IND,37,722
+Casablanca,MAR,38,721
+Kuala Lumpur,MYS,39,720
+Minneapolis,USA,40,719
+Toronto,CAN,41,718
+Taipei,TWN,42,717
+Madrid,ESP,43,716
+Labuan,MYS,44,715
+Berlin,DEU,45,714
+Riyadh,SAU,46,713
+Rome,ITA,47,712
+Oslo,NOR,48,711
+Mumbai,IND,49,710
+Montreal,CAN,50,709
+Jersey,JEY,51,708
+Doha,QAT,52,707
+San Diego,USA,53,706
+Glasgow,GBR,54,705
+Mauritius,MUS,55,704
+New Delhi,IND,56,703
+Astana,KAZ,57,702
+Munich,DEU,58,701
+Hangzhou,CHN,59,700
+Kuwait City,KWT,60,699
+Lisbon,PRT,61,698
+Milan,ITA,62,697
+Malta,MLT,63,696
+Dalian,CHN,64,695
+Bermuda,BMU,65,694
+Wuhan,CHN,66,693
+Ho Chi Minh City,VNM,67,692
+Isle of Man,IMN,68,691
+Guernsey,GGY,69,690
+Monaco,MCO,70,686
+Da Nang,VNM,71,685
+Cyprus,CYP,72,684
+Xi'an,CHN,73,683
+Bahrain,BHR,74,682
+Vancouver,CAN,75,681
+Cayman Islands,CYM,76,680
+Calgary,CAN,77,679
+Warsaw,POL,78,678
+Tianjin,CHN,79,677
+Kigali,RWA,80,676
+Vienna,AUT,81,674
+Brussels,BEL,82,673
+Gibraltar,GIB,83,672
+Hamburg,DEU,84,668
+Helsinki,FIN,85,665
+Nanjing,CHN,86,664
+Tallinn,EST,87,663
+Bangkok,THA,88,659
+Istanbul,TUR,89,658
+Mexico City,MEX,90,657
+Liechtenstein,LIE,91,654
+Almaty,KAZ,92,653
+Cape Town,ZAF,93,651
+Tel Aviv,ISR,94,650
+Johannesburg,ZAF,95,647
+British Virgin Islands,VGB,96,646
+Jakarta,IDN,97,645
+Santiago,CHL,98,644
+Sao Paulo,BRA,99,643
+Moscow,RUS,100,638
+Manila,PHL,101,635
+Prague,CZE,102,632
+Baku,AZE,103,631
+St Petersburg,RUS,104,628
+Nairobi,KEN,105,627
+Rio de Janeiro,BRA,106,626
+Budapest,HUN,107,622
+Panama,PAN,108,618
+Bahamas,BHS,109,617
+Riga,LVA,110,608
+Barbados,BRB,111,604
+Tehran,IRN,112,603
+Lagos,NGA,113,602
+Athens,GRC,114,599
+Sofia,BGR,115,593
+Bogota,COL,116,587
+Buenos Aires,ARG,117,576
