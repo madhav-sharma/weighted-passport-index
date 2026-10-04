@@ -75,11 +75,11 @@ Python script: fetch → clean → score → scores.json   (committed)
 
 - No GDP and no land area in destination value.
 - Conditional exemptions are ignored.
+- Schengen counts as one destination (one bloc, S tier).
 - One recent snapshot, no history.
 - Script → static JSON → Markdown report first. The website comes after reviewing the ranking.
 
 ## 8. Still open
 
-- Schengen: count it as 29 separate destinations, or as one bloc (a single visa decision)?
 - Licences: MIT for code, CC BY for derived data?
 - Methodology-specific questions are in [the methodology](methodology.md#7-open-questions).

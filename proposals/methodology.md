@@ -80,13 +80,14 @@ A YAML file assigns every country to a tier, with a one-line reason.
 
 | Tier | Value | Illustrative members (draft, to be edited) |
 |---|---|---|
-| **S** | 100 | United States |
-| **A** | 50 | UK, China, Russia, UAE, Singapore, Japan, Canada, Australia, Hong Kong, the large Schengen economies |
+| **S** | 100 | United States, Schengen Area (as one bloc) |
+| **A** | 50 | UK, China, Russia, UAE, Singapore, Japan, Canada, Australia, Hong Kong |
 | **B** | 20 | South Korea, India, Saudi Arabia, Türkiye, Brazil, Mexico, Thailand, … |
 | **C** | 8 | Most mid-sized economies and major tourist countries |
 | **D** | 3 | Smaller countries |
 | **E** | 1 | Microstates and hard-to-reach territories |
 
+- **Schengen is scored as one destination.** One visa covers the whole area, so it is one bloc in the tier list and in the score. It is not 29 separate countries.
 - Tier values are knobs too. The gap between S and A decides how much US access matters.
 - The file is explicitly opinionated and versioned. Disagreements become pull requests, not hidden constants.
 
